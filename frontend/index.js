@@ -1,10 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App';
+import ErrorBoundary from './ErrorBoundary';
 
-const App = () => {
-    return (
-        <div>test React</div>
-    );
-}
+import './styles/main.scss';
 
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(<ErrorBoundary><App /></ErrorBoundary>, document.getElementById('app'));

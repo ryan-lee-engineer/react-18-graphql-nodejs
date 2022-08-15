@@ -8,3 +8,15 @@ function component() {
 }
   
 document.body.appendChild(component());
+
+
+// Depth first traversal
+
+// a, b, d, e, c, f
+/*
+        a
+       / \
+      b   c
+     / \   \
+    d   e   f
+*/
